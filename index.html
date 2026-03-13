@@ -639,7 +639,7 @@ Crea 5-6 mini-giochi vari e divertenti sull'argomento della foto. Mescola i tipi
     generationConfig: { temperature: 0.4, maxOutputTokens: 1200 }
   };
 
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${APP.apiKey}`;
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${APP.apiKey}`;
   const res = await fetch(url, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
